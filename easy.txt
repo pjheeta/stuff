@@ -1,0 +1,31 @@
+1. sudo password (terminal)
+***Edit the sudoers file to stop asking for your user:***
+
+#bashsudo visudo
+
+```
+Add this line at the bottom (replace `pjheeta` with your username):
+```
+pjheeta ALL=(ALL) NOPASSWD: ALL
+
+
+Now sudo commands won't ask for a password.
+
+2. Login keyring popup (GUI apps like Chrome, Slack)
+***This happens when your keyring isn't unlocked at login.***
+***Fix it by setting the keyring password to blank:***
+
+Open Passwords and Keys (search "Seahorse" in apps)
+Right-click Login keyring → Change Password
+Enter your current password, then leave the new password blank
+Confirm — it'll warn you, accept it
+
+The keyring will now auto-unlock on login with no prompt.
+
+3. Lock screen / login password
+***If you want to skip the login screen entirely:***
+
+Go to Settings → Users
+Unlock the panel (top right)
+Toggle Automatic Login on for your user
+

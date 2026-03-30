@@ -1,0 +1,21 @@
+1. Stage the new file
+#git add filename.txt
+   -or to stage all files at once-
+#git add .
+
+2. Commit with a message
+#git commit -m "add filename.txt"
+
+3. Push to GitHub
+#git push
+
+4. Fetches and merges the latest changes from the remote into your current branch. 
+#git pull
+
+5.  If you want to be more explicit:
+#git pull origin main
+
+6.  If you just want to fetch without merging yet:
+bashgit fetch
+
+***git pull is essentially git fetch + git merge in one step***
