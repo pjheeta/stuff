@@ -1,6 +1,11 @@
 # stuff
 My Stuff
 
+sudo apt-get install git
+sudo apt install gh
+gh auth login
+
+
 My Stuff Download Repo:
 git clone https://github.com/pjheeta/stuff.git
 
